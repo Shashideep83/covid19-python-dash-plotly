@@ -106,7 +106,7 @@ app.layout = html.Div(
         ),
         dcc.Interval(
             id='interval-component',
-            interval=3600*1000, # Refresh data each hour.
+            interval=3600*1000, 
             n_intervals=0
         )
     ]
