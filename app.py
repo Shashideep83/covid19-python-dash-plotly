@@ -12,7 +12,7 @@ fileNamePickle = "allData.pkl"
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-tickFont = {'size':12, 'color':"rgb(30,30,30)", 'family':"Courier New, monospace"}
+tickFont = {'size':12, 'color':"rgb(30,30,30)", 'Family':"Courier New, monospace"}
 
 def loadData(fileName, columnName): 
     data = pd.read_csv(baseURL + fileName) \
